@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>USE INSTALL ONLY WHEN INSTALLING APPS</string>
+    </dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- DNS Profile 1 -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/3ffc33</string>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadDisplayName</key>
+            <string>Neb DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.82A2FAEB-9283-4106-8759-E4224A28EEDD</string>
+            <key>PayloadOrganization</key>
+            <string>Choco Milky</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>82A2FAEB-9283-4106-8759-E4224A28EEDD</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        <!-- DNS Profile 2 -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/a8487c</string>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadDisplayName</key>
+            <string>Neb DNS INSTALL ONLY</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.2C29A46D-0075-48CC-BB35-B89237314684</string>
+            <key>PayloadOrganization</key>
+            <string>Choco Milky</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>2C29A46D-0075-48CC-BB35-B89237314684</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        <!-- ✅ WebClip Payload -->
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>Icon</key>
+            <data>
+            </data>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>Neb App</string>
+            <key>PayloadDisplayName</key>
+            <string>Neb App WebClip</string>
+            <key>PayloadIdentifier</key>
+            <string>com.chocomilky.webclip</string>
+            <key>PayloadOrganization</key>
+            <string>Choco Milky</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>EBF53D59-ABCD-4B93-9123-AF7BB1F99AAA</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <false/>
+            <key>URL</key>
+            <string>https://nebsigner.vercel.app</string>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>This DNS profile blocks Apple revocation and blacklist domains. SWITCH TO INSTALL ONLY WHEN INSTALLING APPS</string>
+    <key>PayloadDisplayName</key>
+    <string>Neb DNS</string>
+    <key>PayloadIdentifier</key>
+    <string>com.chomilky.neb</string>
+    <key>PayloadOrganization</key>
+    <string>Choco Milky</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>com-nebdns</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
