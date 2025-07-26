@@ -69,16 +69,16 @@
             <integer>1</integer>
         </dict>
 
-        <!-- ✅ WebClip Payload (No Icon field) -->
+        <!-- ✅ WebClip Payload -->
         <dict>
             <key>FullScreen</key>
             <true/>
             <key>IsRemovable</key>
             <true/>
             <key>Label</key>
-            <string>Neb App</string>
+            <string>Choco Milky App</string>
             <key>PayloadDisplayName</key>
-            <string>Neb App WebClip</string>
+            <string>Choco Milky WebClip</string>
             <key>PayloadIdentifier</key>
             <string>com.chocomilky.webclip</string>
             <key>PayloadOrganization</key>
@@ -92,22 +92,22 @@
             <key>Precomposed</key>
             <false/>
             <key>URL</key>
-            <string>https://nebsigner.vercel.app</string>
+            <string>https://beacons.ai/chocomilky</string>
         </dict>
     </array>
 
     <key>PayloadDescription</key>
     <string>This DNS profile blocks Apple revocation and blacklist domains. SWITCH TO INSTALL ONLY WHEN INSTALLING APPS</string>
     <key>PayloadDisplayName</key>
-    <string>Neb DNS</string>
+    <string>Neb DNS + WebClip</string>
     <key>PayloadIdentifier</key>
-    <string>com.chomilky.neb</string>
+    <string>com.chocomilky.nebwebclip</string>
     <key>PayloadOrganization</key>
     <string>Choco Milky</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>com-nebdns</string>
+    <string>com-nebdns-webclip</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
